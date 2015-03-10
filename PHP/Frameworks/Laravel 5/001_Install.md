@@ -1,5 +1,6 @@
-Install（参照[Laravel 5 系列入门教程（一）](http://lvwenhan.com/laravel/432.html)）
+Install
 ====
+参照[Laravel 5 系列入门教程（一）](http://lvwenhan.com/laravel/432.html)
 * 安装php，开启mcrypt扩展
 * 安装composer包管理器
 ```bash
