@@ -1,5 +1,11 @@
 Database Migration
 ====
+* 增加数据库用户和权限
+```sql
+create database laravel5;
+grant all privileges on laravel5.* to "laravel5"@"%" identified by "laravel5";
+flush privileges;
+```
 * 修改文件 .env
 ```
 DB_HOST=localhost
@@ -17,6 +23,7 @@ php artisan make:model Page
 位于databases/migrations/下面
 
 具体参见Illuminate\Database\Schema\Blueprint
+
 ```php
 Schema::create('articles', function(Blueprint $table)
 {
