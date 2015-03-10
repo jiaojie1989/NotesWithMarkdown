@@ -13,7 +13,9 @@ php artisan make:model Article
 php artisan make:model Page
 ```
 * 修改Model文件
+
 位于databases/migrations/下面
+
 具体参见Illuminate\Database\Schema\Blueprint
 ```php
 Schema::create('articles', function(Blueprint $table)
