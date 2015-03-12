@@ -5,8 +5,14 @@ Sequence Diagram 时序图
 
 * Participant 参与者
 > participant
+普通的参与者
+
 > actor
+
 > boundary
+
 > control
+
 > entity
+
 > database
